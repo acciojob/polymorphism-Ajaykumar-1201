@@ -15,10 +15,10 @@ public class Main {
         }
     }
 
-    public  static void Main (String args[]) {
+    public  static void main (String args[]) {
         Product p = new Product () ;
-        System.out.println(p.Product(5, 6));
-        System.out.println(p.Product(4, 5, 9));
-        System.out.println(p.Product(2.6, 5.3));
+        int a = p.Product(5, 6);
+        int b = p.Product(4, 5, 9);
+        double c = p.Product(2.6, 5.3);
     }
 }
